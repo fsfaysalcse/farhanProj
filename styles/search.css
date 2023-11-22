@@ -1,0 +1,80 @@
+body {
+    font-family: 'Product Sans', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1600431521340-491eca880813?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+}
+
+footer div h3, footer div p {
+    margin: 5px 0;
+}
+
+footer div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer div ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div ul li a:hover {
+    text-decoration: underline;
+}
